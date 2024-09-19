@@ -1,0 +1,126 @@
+main {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(../images/bg-repeat.jpg) center center repeat;
+    background-size: contain;
+}
+
+.formulario {
+    padding: 5rem 1.2rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.formulario .informacoes {
+    width: 30rem;
+}
+
+.formulario .informacoes .titulo {
+    margin-bottom: 1.1rem;
+
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.formulario .informacoes .orientacao {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text-color);
+
+}
+
+.formulario .secao-entrada-de-dados {
+    width: 34rem;
+    height: 37.8rem;
+    padding: 2rem;
+
+    background-color: #fff;
+}
+
+
+.formulario .secao-entrada-de-dados .area-do-input{
+    position: relative;
+}
+
+.formulario .secao-entrada-de-dados .area-do-input .input {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+
+    width: 100%;
+    height: 3.5rem;
+    border: .1rem solid #000;
+    border-radius: .5rem;
+    
+}
+
+.formulario .secao-entrada-de-dados .area-do-input .input.text {
+    height: 10rem;
+    padding-top: .8rem;
+}
+
+.formulario .secao-entrada-de-dados .area-do-input .input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a8a8a8;
+}
+
+.formulario .secao-entrada-de-dados .campo-obrigatorio {
+    display: none;
+}
+
+.formulario .secao-entrada-de-dados .area-do-input.invalidado {
+    .input {
+        border: 1px solid #f52e2e;
+    }
+    
+    .campo-obrigatorio {
+            display: block;
+            position: absolute;
+            bottom: 5px;
+        
+            font-size: .8rem;
+            color: #f52e2e;
+    }
+} 
+
+.formulario .secao-entrada-de-dados .area-do-input.validado {
+    .input {
+        border: 1px solid #00c22b;
+    }
+}
+    
+
+.formulario .secao-entrada-de-dados .campos-obrigatorios {
+    margin-bottom: 1.1rem;
+    
+    font-size: 1.5rem;
+}
+
+.formulario .secao-entrada-de-dados .botao {
+    padding: 1.2rem;
+    width: 100%;
+
+    border: none;
+    background-color: #3ccc87;
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    cursor: pointer;
+
+}
