@@ -13,9 +13,9 @@ botaoEnviar.addEventListener('click', function (event) {
 
         if (input !== "") {
             areaDoInput.classList.add('validado')
-            areaDoInput.classList.remove('invalidado') //neste caso coloquei somente para que não haja sobreposição de 
+            areaDoInput.classList.remove('invalidado') 
         } else {
-            areaDoInput.classList.remove('validado') //neste caso coloquei somente para que não haja sobreposição de
+            areaDoInput.classList.remove('validado')
             areaDoInput.classList.add('invalidado')
         }
         
