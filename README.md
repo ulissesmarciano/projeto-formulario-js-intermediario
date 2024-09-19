@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Rubkut
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ulissesmarciano/projeto-formulario-js-intermediario?style=for-the-badge)
@@ -53,3 +54,6 @@ cd projeto-huddle-base
 
 
 Utilizando a Extensão Live Server pressione Alt+L+O
+=======
+# projeto-formulario-js-intermediario
+>>>>>>> 9eed3377bd43e986bc97c8262cc407ecb4d81ca2
