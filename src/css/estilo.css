@@ -9,7 +9,7 @@ main {
     background-size: contain;
 }
 
-.formulario {
+.contato {
     padding: 5rem 1.2rem;
 
 
@@ -19,11 +19,11 @@ main {
     gap: 6rem;
 }
 
-.formulario .informacoes {
+.contato .informacoes {
     width: 30rem;
 }
 
-.formulario .informacoes .titulo {
+.contato .informacoes .titulo {
     margin-bottom: 1.1rem;
 
     font-size: 2rem;
@@ -31,14 +31,14 @@ main {
     color: var(--text-color);
 }
 
-.formulario .informacoes .orientacao {
+.contato .informacoes .orientacao {
     font-size: 15px;
     font-weight: 300;
     color: var(--text-color);
 
 }
 
-.formulario .secao-entrada-de-dados {
+.contato .formulario {
     width: 34rem;
     height: 37.8rem;
     padding: 2rem;
@@ -47,11 +47,11 @@ main {
 }
 
 
-.formulario .secao-entrada-de-dados .area-do-input{
+.contato .formulario .area-do-input{
     position: relative;
 }
 
-.formulario .secao-entrada-de-dados .area-do-input .input {
+.contato .formulario .area-do-input .input {
     margin-bottom: 1.5rem;
     padding-left: 1rem;
 
@@ -62,22 +62,22 @@ main {
     
 }
 
-.formulario .secao-entrada-de-dados .area-do-input .input.text {
+.contato .formulario .area-do-input .input.text {
     height: 10rem;
     padding-top: .8rem;
 }
 
-.formulario .secao-entrada-de-dados .area-do-input .input::placeholder{
+.contato .formulario .area-do-input .input::placeholder{
     font-size: 1.5rem;
     font-weight: 700;
     color: #a8a8a8;
 }
 
-.formulario .secao-entrada-de-dados .campo-obrigatorio {
+.contato .formulario .campo-obrigatorio {
     display: none;
 }
 
-.formulario .secao-entrada-de-dados .area-do-input.invalidado {
+.contato .formulario .area-do-input.invalidado {
     .input {
         border: 1px solid #f52e2e;
     }
@@ -92,20 +92,20 @@ main {
     }
 } 
 
-.formulario .secao-entrada-de-dados .area-do-input.validado {
+.contato .formulario .area-do-input.validado {
     .input {
         border: 1px solid #00c22b;
     }
 }
     
 
-.formulario .secao-entrada-de-dados .campos-obrigatorios {
+.contato .formulario .campos-obrigatorios {
     margin-bottom: 1.1rem;
     
     font-size: 1.5rem;
 }
 
-.formulario .secao-entrada-de-dados .botao {
+.contato .formulario .botao {
     padding: 1.2rem;
     width: 100%;
 
