@@ -27,7 +27,7 @@ Minha maior dificuldade foi separar no meu projeto as areas que receberiam as cl
 
 <br>
 
-<a href="" target="_blank">🎁CLIQUE AQUI🎁</a> e acesse o deploy do projeto!
+<a href="https://projeto-formulario-js-intermediario.vercel.app/" target="_blank">🎁CLIQUE AQUI🎁</a> e acesse o deploy do projeto!
 
 <br>
 
