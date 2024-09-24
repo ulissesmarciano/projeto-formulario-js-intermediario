@@ -54,6 +54,9 @@ cd projeto-huddle-base
 
 
 Utilizando a Extensão Live Server pressione Alt+L+O
-=======
-# projeto-formulario-js-intermediario
->>>>>>> 9eed3377bd43e986bc97c8262cc407ecb4d81ca2
+
+
+#Correções
+
+- [x] Orientação para o tipo de botão (type="submit")
+- [x] Responsividade (opcional por não ser solicitado no projeto)
