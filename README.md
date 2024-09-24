@@ -59,4 +59,7 @@ Utilizando a Extensão Live Server pressione Alt+L+O
 #Correções
 
 - [x] Orientação para o tipo de botão (type="submit")
-- [x] Responsividade (opcional por não ser solicitado no projeto)
+- [x] Responsividade (opcional por não ser uma exigência do projeto)
+- [x] Adicionando melhorias na lógica
+
+
