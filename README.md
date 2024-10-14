@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Rubkut
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ulissesmarciano/projeto-formulario-js-intermediario?style=for-the-badge)
