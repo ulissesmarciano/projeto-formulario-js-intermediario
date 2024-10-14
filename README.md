@@ -1,4 +1,4 @@
-# React Rubkut
+# Formulário JS Intermediário
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ulissesmarciano/projeto-formulario-js-intermediario?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/ulissesmarciano/projeto-formulario-js-intermediario?style=for-the-badge)
